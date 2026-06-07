@@ -1,0 +1,15 @@
+Professor: Mustafa Ocal
+Course: COP3084 - Intermediate Java Programming
+Department: Computer Science
+University: FIU
+
+Reviews:
+"If you were like me who did OK in java 1 and didn't understand much... TAKE THIS PROFESSOR. I was scared because my first java class wasn't great (I ended with c), this guy made me feel like I was boss. I ended with an A knowing everything I need to know."
+
+"ima j say this. best professor i had in coding. super kind and his lectures actually make sense. pls take this guy hes him. he provides extra credit, lectures can be found on canvas, exams are not too bad (if u study ur good). overall, one of my favorites. His lectures were fire."
+
+"One of the best computer science professors at FIU. Assignments are worth 50% of your grade, so it's easy to have a good grade in his class. Very concise lectures that get to the point and uses real-world examples to make it even easier to understand each topic. Gives a lot of extra credit during class so attending class is worth it!"
+
+"Excellent professor with fair grading guidelines. A fast grader who corrects work quickly and provides helpful feedback, crediting the part of your job that is right even when there are errors. His assignments are 50% of the grades."
+
+"Professor Mustafa has been THE BEST professor I've had in my whole college career (4 years going to 5). The lectures are fun and he uses a lot of examples to help students understand better. It does not matter how many times you ask he will explain it again using a different method until you get it. 2 semester teaching and does it like a legend."

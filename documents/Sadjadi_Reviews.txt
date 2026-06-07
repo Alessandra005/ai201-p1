@@ -1,0 +1,15 @@
+Professor: Masoud Sadjadi
+Course: CIS3950 - Capstone I
+Department: Computer Science
+University: FIU
+
+Reviews:
+"He is the only professor for Capstone (I and II) and he is very disorganized and vague. I still have not receive my grade yet and this is suppose to be an easy class. He gets an F based off of disorganization alone."
+
+"This professor wants to do the least amount of work possible. Rarely responds to emails and gives an angry response back to you and posted the response to all students. This is a online group project class but puts in no effort to help students find good projects and groups that fit them and since it is online it is very hard to do so otherwise."
+
+"Professor assigns 80% for Scrum ceremonies; group meetings 5 days a week; different values per Sprint e.g. Sprint 1)-8%; 2)-12%; 3)-16%; 4)-20%; 5)-24%. The poster value is 10%, and the final zip file is 10%; totalizing 100%. The professor responds to inquiries through the announcements, so everyone is informed at once. Do the job every week."
+
+"At the time of writing, this prof is the only choice for Capstone I/II. In this course, you form groups to create a project while following Scrum concepts. In Cap1, it's mostly graded on the Scrum ceremonies, so as long as you all meet 5 days a week, it's an easy A. Contacting the prof is hard but not needed due to the loose criterion."
+
+"Very unclear with capstone expectations and only riddles your team with meaningless assignments daily. You must submit an assignment at least once everyday for the weekdays. He practically does absolutely nothing and teaches nothing. He is arguably the worst professor I ever had. He is only there to rob you of your labor and ideas for FIU."

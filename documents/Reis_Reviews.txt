@@ -1,0 +1,15 @@
+Professor: Gregory Reis
+Course: COP4555 - Principles of Programming Languages
+Department: Computer Science
+University: FIU
+
+Reviews:
+"Seriously, take this class!. It notifies you of everything via announcements. There is a mid and final test, but they are not proctored , is 30% of your grade. The HW isn't heavy, is quizzes and discussion, is 40%, and you have almost the entire semester to complete a project (30%), which you can do individually or in a group. He is the best!!"
+
+"One of the few GOATs at FIU. Easy grader and an overall easy class; but unlike some of the "easy" professors here, his course teaches you critical concepts and practical applications. This professor's lectures are exceptional. 1 paper that can be split with 4 classmates, 2 exams, and various quizzes (3 attempts) all due at the end of the semester."
+
+"Continuing my rating, he is accessible outside class. He is so passionate about what he is teaching (he wrote a textbook with examples for everything). I think professor Reis is the right option for this class and for HCI. You will not regret taking COP 4555 and HCI. The class is more focused on learning than on a grade, which is something I liked"
+
+"Professor Reis is one of best CS professors at FIU. I took COP 4555 and learned so much. We learned learned functional paradigm. We learned F# and covered curried and tupled functions. We learned Pattern Matching, Discriminated Unions, Trees and Binary Search Trees, Recursion, Tail Recursion, the cons operator, the @ operator and so much more."
+
+"Super nice, very caring professor with easy to follow lectures. 3 exams, 2 of which are open book. You really can't go wrong with him."

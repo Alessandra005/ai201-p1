@@ -1,0 +1,15 @@
+Professor: Niemah Osman
+Course: COP4710 - Database Management
+Department: Computer Science
+University: FIU
+
+Reviews:
+"Now by all means, she is not perfect, but as someone who barely showed up to the class, her class is not that hard. She is pretty sweet and caring and is trying her best to become a better professor and give everyone a good experience. I respect that. But just wish she gives more points for extra credit and doesn't just read off the powerpoints."
+
+"Nice person, she is not a good professor. Took online class forums "mandatory" to attend I tried getting an exception and was denied. Professor isn't very accommodating for working students, so beware. Lectures are boring and monotonous. Be self starter and learn on your own as assignments do not prepare you for final. Overall, wouldn't take again."
+
+"New professor at FIU. While she was super nice as a person, her teaching was purely her reading off 60+ slide powerpoints for multiple classes at a time, which made it really difficult to stay engaged at all. There wasn't much classwork where we could practice or apply what we learned, and no structure as to how to prepare for exams."
+
+"Quite possibly the laziest prof ever. Only graded on 3 group assignments, 2 exams, and a group seminar. Her lectures are her reading off powerpoints for nearly an hour, but the only useful part is her examples. Overall, a disappoint of a professor with "high honors""
+
+"Not the worst prof ever, but definitely not good, 3 assignments, 2 exams, and a couple of mini quizzes for the whole semester, lectures are her reading off powerpoints for the whole video, she is nice and answers messages quick and is willing to help you on whatever you need, but her lectures and material are really lazily made, alright at best"

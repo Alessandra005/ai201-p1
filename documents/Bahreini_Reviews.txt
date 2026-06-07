@@ -1,0 +1,15 @@
+Professor: Kiavash Bahreini
+Course: COP3337 - Computer Programming II
+Department: Computer Science
+University: FIU
+
+Reviews:
+"He cares about his students. The class was kind of easy if you study. He gives plenty of extra credits that will boost your grade so much. Take him."
+
+"Dr. Bahreini was a great instructor for this advanced database course. He structures the course to look very nice and neat. He also provides extended feedback on the assignments as well as announcements on how to succeed on them. The only downsides of this course are that grading was very slow, and his final was very difficult, so study beforehand."
+
+"I took Dr. Bahreini for another graduate course last year, and had a great time, so naturally I expected to receive the same experience. Unfortunately, for this course, it is somewhat of a letdown. Yes, his very nice and respectful. However, he is also extremely picky when it comes to grading, and the grading itself is very slow."
+
+"This professor assignment were actually helpful with my coding skills, but I am not a fan of using honorlock, but other than that, the professor is an amazing professor and I recommend anyone that wants to learn more about coding to take this class."
+
+"Dr. Bahreini is an incredible instructor and I learned so much about software design, principles, and patterns. One key note is that the course requires a lot of teamwork when it comes to projects. Thankfully Dr. Bahrenin gives you step-by-step instructions on how to prepare. This course was amazing and I wish I could have him for more courses."

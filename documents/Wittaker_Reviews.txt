@@ -1,0 +1,15 @@
+Professor: Richard Whittaker
+Course: COP3337 - Computer Programming II
+Department: Computer Science
+University: FIU
+
+Reviews:
+"This guy isn't decent, good, great, or excellent. He is world-class. The amount of passion he has for this subject is what makes him so good at teaching because he genuinely is inspired and in awe of what you are able to do with a computer and coding. He loves helping and is a genuine guy that wants you to succeed. You will pass."
+
+"As a college junior; best professor I've ever had. The guy genuinely cares and wants to see his students succeed THE RIGHT WAY. Also explains intricate and complex ideas/concepts EXTREMELY well, which is a tough skill to master on its own. Can't recommend him enough."
+
+"Whittaker is a great professor. He is NOT a gatekeeper in any way. You can tell he believes in his students. He answers any and all questions! There are nightmare professors out there, but Whittaker is not one of them. His light-hearted attitude is refreshing. My advice is to truly understand the material. The rest will be easy. Take him!"
+
+"Great professor. Probably one of the best ones Ive had. He genuinely cares about his students and how they learn. While he does critiques other professors because youre supposed to know code, like 2D arrays, he does make up for it by telling you what to do and you can even ask during his lectures and share your screen. 10/10."
+
+"Whittaker is such a caring, amazing professor. i have never seen a professor push his student to do great at what his teaching. full respect to the way of his teaching, he never get tired or bored of explaining the material over and over. always willing to help and explain to student. if you want to learn a good solid base in programming , he is 1"

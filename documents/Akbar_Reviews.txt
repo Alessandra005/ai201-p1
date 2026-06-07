@@ -1,0 +1,15 @@
+Professor: Rehan Akbar
+Course: CEN5087 - Software and Data Modeling
+Department: Computer Science
+University: FIU
+
+Reviews:
+"I took CEN3721 with him and 98% of the assignments were group projects. He's very nice and answers emails quickly but the instruction on the projects may be a bit confusing, just reach out and he'll clarify. If you have a bad group I would recommend to switch to another group as it might be overwhelming to do on your own. Exam/Quizzes are easy"
+
+"Dr. Akbar has extensive experience in the tech field and knowledge of software engineering/software design. The course is very hands-on with UML and software modeling. His exams are a bit tough, but he provides a lot of extra credit to help increase your grade. He is also very approachable and will provide extensions for assignments if asked."
+
+"I learned that all students failed exams in each class. My midterm grade was low, but high compared to the class average. There may be issues with the exam answers. The class focuses on textbook definitions and lacks any practical teaching in software testing which is entirely about tooling and techniques. He reads from powerpoints."
+
+"This teacher is new, and it clearly shows in the way he teaches. He only reads the PowerPoint slides, and he expects you to memorize over 200 slides to memory for the midterm and final exams. He takes away points from you without providing a valid explanation. He doesn't seem to care about his students, and 80% of my class is failing."
+
+"I'm going to make this review short and simple. Pros: None. Cons: Takes years to reply to emails; takes decades to grade anything. If you mess up on one of his assignments, say goodbye to your A. Makes exams difficult for no reason. This is the first time I am failing a course in my four years of college."

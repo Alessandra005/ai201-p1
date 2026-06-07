@@ -1,0 +1,15 @@
+Professor: Kianoosh Boroojeni
+Course: CDA3102 - Computer Architecture
+Department: Computer Science
+University: FIU
+
+Reviews:
+"There were only 2 exams, a midterm and a Final with some hw in-between. He's very lenient on the grading and makes sure you get that extra push to pass the course. The tests are based on his reviews and he lets you bring unlimited amounts of notes for test day. Definitely recommend his class if you're willing to learn and do the work!"
+
+"Best professor ever, you won't definitely regret taking him. He will help you the most he can to get that A when finishing the class. What he cares is that you learn, and that's all."
+
+"Extremely knowledgeable professor. Lectures can be fast-paced but if you get stuck on something he will gladly help if you ask. Homework & attendance affect your grade more than the exams, which can be tricky but are open-notes and have generous curves. Overall he is a very nice person, just show up and take notes/do homework and easy pass"
+
+"Doesn't interact much in the online course format. Mostly self-teaching. HOWEVER, he is notorious for curving, so even if you don't do well, you will most likely pass. The course has 2 (practically open-book) exams, Zybooks, and 5 coding projects. You'll need to read the Zybooks & presentations to do well. All in all, I would 100% recommend him!"
+
+"difficult class in cs, but I would still take this prof every time. always on time and delivers an in-depth look at topics. His exams and some assignments are curved which is very helpful. The exams are relatively difficult, please don't expect a free A but he allows a bunch of paper notes, so if you have good notes and go to class you will pass"

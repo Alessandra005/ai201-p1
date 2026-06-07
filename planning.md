@@ -9,87 +9,64 @@
 
 ## Domain
 
-<!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
+This project focuses on FIU Computer Science professor reviews collected from Rate My Professors. Students rely on this kind of peer feedback constantly when registering for classes, but the information is scattered across individual professor pages and hard to search by specific criteria. This guide makes real student opinions searchable by question — so instead of clicking through 10 profiles, a student can just ask "which professor curves their exams?" and get a grounded answer drawn from actual reviews.
 
 ---
 
 ## Documents
 
-<!-- List your specific sources: URLs, subreddit names, forum threads, or file descriptions.
-     Aim for at least 10 sources that together cover different subtopics or perspectives within your domain. -->
-
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | Rate My Professors | Reviews for Prof. Kianoosh Boroojeni — CDA3102 Computer Architecture | docs/Boroojeni_Reviews.txt |
+| 2 | Rate My Professors | Reviews for Prof. Kiavash Bahreini — COP3337 Computer Programming II | docs/Bahreini_Reviews.txt |
+| 3 | Rate My Professors | Reviews for Prof. Patricia McDermott Wells — CEN3721 Human-Computer Interaction | docs/McDermott_Reviews.txt |
+| 4 | Rate My Professors | Reviews for Prof. Masoud Sadjadi — CIS3950 Capstone I | docs/Sadjadi_Reviews.txt |
+| 5 | Rate My Professors | Reviews for Prof. Niemah Osman — COP4710 Database Management | docs/Osman_Reviews.txt |
+| 6 | Rate My Professors | Reviews for Prof. Gregory Reis — COP4555 Principles of Programming Languages | docs/Reis_Reviews.txt |
+| 7 | Rate My Professors | Reviews for Prof. Fatima Boujarwah — CDA3102 Computer Architecture | docs/Boujarwah_Reviews.txt |
+| 8 | Rate My Professors | Reviews for Prof. Rehan Akbar — CEN5087 Software and Data Modeling | docs/Akbar_Reviews.txt |
+| 9 | Rate My Professors | Reviews for Prof. Richard Whittaker — COP3337 Computer Programming II | docs/Wittaker_Reviews.txt |
+| 10 | Rate My Professors | Reviews for Prof. Mustafa Ocal — COP3084 Intermediate Java Programming | docs/Mustafa_Ocal_Reviews.txt |
 
 ---
 
 ## Chunking Strategy
 
-<!-- How will you split documents into chunks?
-     State your chunk size (in tokens or characters), overlap size, and explain why those
-     numbers fit the structure of your documents.
-     A review-heavy corpus warrants different chunking than a long FAQ. -->
+**Chunk size:** 300 characters
 
-**Chunk size:**
+**Overlap:** 50 characters
 
-**Overlap:**
-
-**Reasoning:**
+**Reasoning:** Each document contains individual Rate My Professors reviews that are short and self-contained — typically 2 to 5 sentences expressing one student's complete opinion. Chunking by individual review preserves these natural boundaries so each chunk carries a complete thought. The 300-character limit catches any review that runs long and splits it cleanly, while the 50-character overlap ensures that if a key point falls near a boundary, it still appears in both adjacent chunks and remains retrievable. Larger chunks would merge unrelated opinions from different students; smaller chunks would break mid-sentence and lose meaning.
 
 ---
 
 ## Retrieval Approach
 
-<!-- Which embedding model are you using (e.g., all-MiniLM-L6-v2 via sentence-transformers)?
-     How many chunks will you retrieve per query (top-k)?
-     If you were deploying this for real users and cost wasn't a constraint, what tradeoffs
-     would you weigh in choosing a different embedding model — context length, multilingual
-     support, accuracy on domain-specific text, latency? -->
+**Embedding model:** all-MiniLM-L6-v2 via sentence-transformers (runs locally, no API key required)
 
-**Embedding model:**
+**Top-k:** 4
 
-**Top-k:**
-
-**Production tradeoff reflection:**
+**Production tradeoff reflection:** For a real deployment I would consider OpenAI's text-embedding-3-small or Cohere's embed-v3 models. The tradeoffs I'd weigh are: context length (all-MiniLM-L6-v2 caps at 256 tokens, which is fine for short reviews but would fail on longer documents), multilingual support (relevant if serving non-English speaking students), domain-specific accuracy (a model fine-tuned on educational or review text would likely outperform a general-purpose model here), and latency vs. cost (local models like MiniLM have zero API cost and no rate limits, but API-based models tend to produce better embeddings for nuanced semantic queries). For this project's scope, MiniLM is the right call.
 
 ---
 
 ## Evaluation Plan
 
-<!-- List your 5 test questions with their expected correct answers.
-     Questions should be specific enough that you can judge whether the system's response
-     is right or wrong. "What are good dining halls?" is too vague.
-     "What do students say about wait times at [dining hall name] during lunch?" is testable. -->
-
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | Which professor is best for students who struggled in their first Java class? | Mustafa Ocal — reviews specifically mention he helps students who did poorly in Java 1 |
+| 2 | Does Boroojeni allow notes on his exams? | Yes — students say he allows unlimited paper notes on test day |
+| 3 | What do students say about Sadjadi's organization? | He is described as disorganized and vague, rarely responds to emails, and gives unclear expectations |
+| 4 | How is grading structured in Reis's COP4555? | Approximately 40% quizzes and discussions, 30% project, 30% exams (midterm and final) |
+| 5 | Which professors are known for reading directly off PowerPoint slides? | Osman, Akbar, and Boujarwah are all mentioned by students for reading off slides |
 
 ---
 
 ## Anticipated Challenges
 
-<!-- What could go wrong? Name at least two specific risks with reasoning.
-     Consider: noisy or inconsistent documents, missing source attribution, off-topic
-     retrieval, chunks that split key information across boundaries. -->
+1. **Short reviews may produce low-signal embeddings.** Some reviews are only 1–2 sentences, which gives the embedding model very little text to work with. If the query uses different vocabulary than the review (e.g., query says "lenient grader" but the review says "curves a lot"), semantic similarity may be too low to retrieve the right chunk. This could cause relevant reviews to be missed entirely.
 
-1.
-
-2.
+2. **Multiple professors teaching the same course.** Both Boroojeni and Boujarwah teach CDA3102, and both Bahreini and Whittaker teach COP3337. A query about "Computer Architecture" or "Programming II" without a professor name could retrieve chunks from both professors and produce a confusing or blended answer. The grounding prompt needs to be specific about citing sources so students can tell which professor a statement applies to.
 
 ---
 
