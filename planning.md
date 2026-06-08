@@ -71,12 +71,33 @@ This project focuses on FIU Computer Science professor reviews collected from Ra
 ---
 
 ## Architecture
-
-<!-- Draw a diagram of your pipeline showing the five stages:
-     Document Ingestion → Chunking → Embedding + Vector Store → Retrieval → Generation
-     Label each stage with the tool or library you're using.
-     You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
-     You'll use this diagram as context when prompting AI tools to implement each stage. -->
+┌─────────────────────────────────────────────────────────────────┐
+│                         PIPELINE                                │
+│                                                                 │
+│  [1] Document Ingestion          [2] Chunking                   │
+│      docs/*.txt                      300 chars / 50 overlap     │
+│      Custom parser (ingest.py)       Split by review boundary   │
+│             │                                │                  │
+│             └──────────────┬─────────────────┘                  │
+│                            ▼                                    │
+│  [3] Embedding + Vector Store                                   │
+│      all-MiniLM-L6-v2 (sentence-transformers)                   │
+│      ChromaDB (local persistent store)                          │
+│             │                                                   │
+│             ▼                                                   │
+│  [4] Retrieval                                                  │
+│      Cosine similarity search, top-k = 4                        │
+│      Returns chunks + source metadata                           │
+│             │                                                   │
+│             ▼                                                   │
+│  [5] Generation                                                 │
+│      Groq API — llama-3.3-70b-versatile                         │
+│      Grounded prompt (context-only, source citation required)   │
+│             │                                                   │
+│             ▼                                                   │
+│  [6] Interface                                                  │
+│      Gradio web UI (app.py) — localhost:7860                    │
+└─────────────────────────────────────────────────────────────────┘
 
 ---
 
