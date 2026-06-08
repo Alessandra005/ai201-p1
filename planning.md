@@ -114,7 +114,10 @@ This project focuses on FIU Computer Science professor reviews collected from Ra
      with my specified chunk size and overlap" is a plan. -->
 
 **Milestone 3 — Ingestion and chunking:**
+I handled the document structure and chunking logic, and then realized splitting by review just made way more sense since each review is already complete. I gave Claude my Documents table, Chunking Strategy section, and explained the exact format of my files (professor name, course header, then quoted reviews line by line) and asked it to help me write `ingest.py` based on what I had already planned. I reviewed what it generated, made sure the `parse_document()` function actually matched my file format, and verified it worked by running `python ingest.py` and reading through 5 sample chunks to confirm each one had clean review text with professor metadata attached.
 
 **Milestone 4 — Embedding and retrieval:**
+I gave Claude my Retrieval Approach section and architecture diagram and asked it to help implement `embed.py` and the `retrieve()` function in `query.py`. I tested retrieval myself by running 3 of my evaluation questions and checking that the returned chunks were actually relevant and that distance scores were below 0.5.
 
 **Milestone 5 — Generation and interface:**
+The grounding rule was set up so the system won’t guess when the docs don’t have enough info. With that requirement and the output format in place, Claude helped implement generate(), the Gradio UI, and a cleaner ASCII diagram. The grounding was verified by asking something outside the docs and confirming it responded with not enough information.
